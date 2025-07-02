@@ -1,0 +1,21 @@
+npm error code ERESOLVE
+npm error ERESOLVE unable to resolve dependency tree
+npm error
+npm error While resolving: y2k-ui@1.0.0
+npm error Found: react@19.1.0
+npm error node_modules/react
+npm error   dev react@"^19.1.0" from the root project
+npm error
+npm error Could not resolve dependency:
+npm error peer react@"^16.8.0 || ^17.0.0 || ^18.0.0" from @storybook/addon-onboarding@1.0.11
+npm error node_modules/@storybook/addon-onboarding
+npm error   dev @storybook/addon-onboarding@"^1.0.11" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error /Users/bananawalnut/.npm/_logs/2025-07-02T22_57_15_799Z-eresolve-report.txt
+npm error A complete log of this run can be found in: /Users/bananawalnut/.npm/_logs/2025-07-02T22_57_15_799Z-debug-0.log

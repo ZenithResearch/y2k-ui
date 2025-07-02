@@ -1,0 +1,36 @@
+# Demo files (not part of the npm package)
+App.tsx
+demo/
+main.ts
+preview.ts
+
+# Development files
+.storybook/
+stories/
+*.stories.tsx
+*.test.tsx
+
+# Build tools
+rollup.config.js
+postcss.config.js
+tsconfig.json
+.eslintrc.js
+
+# Documentation
+CONTRIBUTING.md
+Guidelines.md
+Attributions.md
+
+# Git and development
+.git/
+.gitignore
+node_modules/
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.log
+.DS_Store

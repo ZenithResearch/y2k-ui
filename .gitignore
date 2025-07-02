@@ -1,0 +1,49 @@
+# Node dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Environment variables
+.env
+.env.*
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Storybook
+storybook-static/
+.storybook/
+
+# Misc
+*.tgz
+*.tar.gz
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Package manager lock files (optional, if you want to ignore them)
+# package-lock.json
+yarn.lock
+pnpm-lock.yaml
