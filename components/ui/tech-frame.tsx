@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { cn } from './utils';
 
+/** Props for `TechFrame`. */
 export interface TechFrameProps {
   className?: string;
   /** Render the thin bottom line */
@@ -17,6 +18,10 @@ export interface TechFrameProps {
   cornerClassName?: string;
 }
 
+/**
+ * Adds subtle technology-style frame lines and corner accents around the container.
+ * Styling (colors/gradients) is provided by the consumer via className props.
+ */
 /**
  * Adds subtle technology-style frame lines and corner accents around the container.
  * Styling (colors/gradients) is provided by the consumer via className props.

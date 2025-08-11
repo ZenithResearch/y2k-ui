@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { cn } from './utils';
 
+/** Props for `GridPattern`. */
 export interface GridPatternProps {
   className?: string;
   /** Size of the grid cell in pixels */
@@ -11,6 +12,10 @@ export interface GridPatternProps {
   style?: React.CSSProperties;
 }
 
+/**
+ * Decorative grid background. Renders a square grid via CSS gradients.
+ * Non-interactive and positioned absolutely by default.
+ */
 /**
  * Decorative grid background. Renders a square grid via CSS gradients.
  * Non-interactive and positioned absolutely by default.

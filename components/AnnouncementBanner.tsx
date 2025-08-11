@@ -7,8 +7,17 @@ import { GridPattern } from './ui/grid-pattern';
 import { FloatingOrbs, FloatingOrb } from './ui/floating-orbs';
 import { TechFrame } from './ui/tech-frame';
 
+/**
+ * Visual style presets for `AnnouncementBanner`.
+ */
 export type AnnouncementBannerVariant = 'default' | 'electric' | 'chrome' | 'glow';
 
+/**
+ * Props for `AnnouncementBanner`.
+ *
+ * @remarks
+ * This component is fully presentational and unopinionated about copy. All text and icons are supplied by the consumer.
+ */
 export interface AnnouncementBannerProps {
   className?: string;
   title?: React.ReactNode;
@@ -44,6 +53,21 @@ const DEFAULT_VARIANT_CLASSES: Record<AnnouncementBannerVariant, string> = {
   glow: 'from-y2k-electric-blue/15 to-y2k-cyan/15 border-y2k-glow/40',
 };
 
+/**
+ * Highly configurable banner with Y2K-styled background and chrome accents.
+ *
+ * @example
+ * ```tsx
+ * <AnnouncementBanner
+ *   variant="electric"
+ *   badge="ALERT"
+ *   title="Announcement"
+ *   message="Details go here"
+ *   animated
+ *   dismissible
+ * />
+ * ```
+ */
 export function AnnouncementBanner({
   className,
   title,

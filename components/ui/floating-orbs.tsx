@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { cn } from './utils';
 
+/** Options for a single decorative orb. */
 export interface FloatingOrb {
   /** Absolute-positioning utility classes, e.g., "top-2 right-8" */
   positionClassName?: string;
@@ -14,12 +15,16 @@ export interface FloatingOrb {
   style?: React.CSSProperties;
 }
 
+/** Props for `FloatingOrbs`. */
 export interface FloatingOrbsProps {
   className?: string;
   orbs?: FloatingOrb[];
   animated?: boolean;
 }
 
+/**
+ * Renders decorative, blurred gradient orbs. Fully styleable via classes.
+ */
 /**
  * Renders decorative, blurred gradient orbs. Fully styleable via classes.
  */

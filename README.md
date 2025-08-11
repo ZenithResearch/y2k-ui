@@ -100,6 +100,23 @@ function MyApp() {
 }
 ```
 
+### AnnouncementBanner
+
+A configurable banner component composed from Y2K primitives. See also: `docs/components/announcement-banner.md`.
+
+```tsx
+import { AnnouncementBanner } from "@y2k-tech/ui";
+
+<AnnouncementBanner
+  variant="electric"
+  badge="ALERT"
+  title="Announcement"
+  message="Details go here"
+  animated
+  dismissible
+/>
+```
+
 ### Named Imports
 
 ```tsx
