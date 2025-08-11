@@ -52,12 +52,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/y2k-tech/ui.git"
+    "url": "git+https://github.com/ZenithResearch/y2k-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/y2k-tech/ui/issues"
+    "url": "https://github.com/ZenithResearch/y2k-ui/issues"
   },
-  "homepage": "https://y2k-tech-ui.com",
+  "homepage": "https://zenith-research.ca",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",

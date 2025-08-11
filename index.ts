@@ -4,6 +4,7 @@
 // Core Y2K Components
 export { BrandKit } from './components/BrandKit';
 export { StereoPlayer } from './components/StereoPlayer';
+export { AnnouncementBanner } from './components/AnnouncementBanner';
 
 // Essential UI components for convenience
 export { Button } from './components/ui/button';
@@ -55,6 +56,9 @@ export * from './components/ui/textarea';
 export * from './components/ui/toggle-group';
 export * from './components/ui/toggle';
 export * from './components/ui/tooltip';
+export { GridPattern } from './components/ui/grid-pattern';
+export { FloatingOrbs } from './components/ui/floating-orbs';
+export { TechFrame } from './components/ui/tech-frame';
 
 // Utility exports
 export * from './components/ui/utils';
